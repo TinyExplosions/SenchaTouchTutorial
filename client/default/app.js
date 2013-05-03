@@ -9,8 +9,8 @@ Ext.application({
     controllers: ['Main'],
 
     launch: function() {
-        $fh.ready({}, function() {
+        // $fh.ready({}, function() {
             Ext.create('Sencha.view.Viewport');
-        });
+        // });
     }
 });
