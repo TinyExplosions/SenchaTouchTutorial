@@ -1,0 +1,13 @@
+.home {
+    text-align: center;
+}
+
+.home p {
+    color: #666;
+    font-size: 1.4em;
+    margin: 10px 20px 20px 20px;
+}
+
+.homt img {
+    margin-top: -10px;
+}
