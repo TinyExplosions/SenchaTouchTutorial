@@ -1,5 +1,6 @@
 Ext.define('Sencha.view.Viewport', {
     extend: 'Ext.TabPanel',
+    id: 'mainPanel',
 
     config: {
         fullscreen: true,
@@ -9,7 +10,7 @@ Ext.define('Sencha.view.Viewport', {
                 xtype: 'homepanel'
             },
             {
-                xtype: 'productspage'
+                xtype: 'carouselPage'
             },
             {
                 xtype: 'commentspage'

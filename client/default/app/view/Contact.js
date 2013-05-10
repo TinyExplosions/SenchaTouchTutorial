@@ -15,7 +15,7 @@ Ext.define('Sencha.view.Contact', {
             {
                 xtype: 'fieldset',
                 title: 'Leave a comment',
-                instructions: 'Email is optional',
+                instructions: 'All fields are required',
 
                 items: [
                     {
