@@ -5,7 +5,12 @@ var data = [
 ];
 
 exports.submitCommentForm = function(params, callback) {
-  return callback(null, params);
+  console.log(params.comment);
+  if (!params.comment) {
+    return callback("An Error Has Occurred. Please Try Again Later");
+  }
+  data.push(params.comment);
+  return callback(null, data);
 };
 
 exports.getCommentData = function(params, callback) {
