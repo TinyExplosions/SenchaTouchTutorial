@@ -29,6 +29,7 @@ Ext.define('Sencha.controller.Main', {
             req: {}
         }, function(res) {
             self.reloadList(res);
+
         }, function(msg, err) {
             console.log('Error',err);
         });
